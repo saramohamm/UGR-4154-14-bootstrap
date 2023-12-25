@@ -5,69 +5,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     
+    <link rel="stylesheet" href="../bootstrap.min.css">
 </head>
 
 <body>
-
-    <header class="contactheader">
-        <nav>
-            <a href="homepage.html">Home</a>
-            <a href="resumepage.html">Resume</a>
-            <a href="servicepage.html">Service</a>
-            <a href="blogpage.html">Blog</a>
-        </nav>
+    <header class="navbar navbar-expand-lg navbar-light bg-warning">
+        <div class="a container-fluid bg-warning">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="homepage.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="servicepage.html">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blogpage.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutpage.html">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </header>
-
-    <div class="contanctcontent">
-        <div class="contactcontainer">
-            <div class="contactleft-container">
-                <h1>Contact Information</h1>
-                <h2>Email</h2>
-                <p>saramohammednassir1@gmail.com</p>
-                <h2>Phone</h2>
-                <p>+25167269790</p>
-                <h2>Address</h2>
-                <p>Arada, Adiss Ababa</p>
+    
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="bg-warning p-3 rounded">
+                    <h1>Contact Information</h1>
+                    <h2>Email</h2>
+                    <p>saramohammednassir1@gmail.com</p>
+                    <h2>Phone</h2>
+                    <p>+25167269790</p>
+                    <h2>Address</h2>
+                    <p>Arada, Adiss Ababa</p>
+                </div>
             </div>
 
-            <div class="contactright-container">
-                <h1>Get In Touch</h1>
-                <div class="input-group">
-                    <input type="text" id="name" name="name" placeholder="Your Name">
-                </div>
-                
-                <div class="input-group">
+            <div class="col-md-6 mb-4">
+                <div class="bg-light p-3 rounded">
+                    <h1>Get In Touch</h1>
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" class="form-control" placeholder="Your Name">
+                    </div>
 
-                    <input type="email" id="email" name="email" placeholder="Your Email">
-                </div>
-                
-                <div class="input-group">
-                    <textarea id="message" name="message" placeholder="Your Message"></textarea>
-                </div>
-                
-                
-                <div class="input-group">
-                    
-                    <input type="text" id="subject" name="subject" placeholder="Your Subject" required>
-                    
-                </div>
-                
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" class="form-control" placeholder="Your Email">
+                    </div>
 
-                <button class="send-button">Send Message</button>
+                    <div class="form-group">
+                        <textarea id="message" name="message" class="form-control"
+                            placeholder="Your Message"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" class="form-control"
+                            placeholder="Your Subject" required>
+                    </div>
+
+                    <button class="send-button btn btn-warning">Send Message</button>
+                </div>
             </div>
         </div>
     </div>
 
-    <footer class="contactfooter">
+    <footer class="contactfooter fixed-bottom bg-warning text-white text-center p-3">
         <div class="social-icons">
-            <a href="https://instagram.com/sarin_a7077?igshid=MzMyNGUyNmU2YQ==" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://instagram.com/sarin_a7077?igshid=MzMyNGUyNmU2YQ==" target="_blank"><i
+                    class="fab fa-instagram"></i></a>
             <a href="https://t.me/sevgili02" target="_blank"><i class="fab fa-telegram"></i></a>
-            <a href="https://www.facebook.com/profile.php?id=100091143585896" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100091143585896" target="_blank"><i
+                    class="fab fa-facebook"></i></a>
         </div>
     </footer>
 
+    
+    <script src="../bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

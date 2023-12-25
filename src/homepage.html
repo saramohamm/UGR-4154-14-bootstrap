@@ -4,47 +4,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>homepage</title>
-    <link rel="stylesheet" href="styles.css">
-    <style>
-        
-    </style>
+    <title>Homepage</title>
+
+    <link rel="stylesheet" href="../bootstrap.min.css">
 </head>
 
 <body>
-    <header class="header">
+    <header class="header bg-light text-warning  py-">
         <h2> Home</h2>
     </header>
+    <div class=" text-center">
+    <div class="upper-circle mt-4">
+        <img src="images/profile.jpg" alt="Circle Image" class="img-fluid rounded-circle" style="width: 250px; height: 250px;">
+    </div>
+    
+    <img src="images/backgroung.jpg" alt="Main Image" class="main-image img-fluid  w-100 h-auto">
+        
 
-    <div class="container">
-        <img src="images/backgroung.jpg" alt="Main Image" class="main-image">
+       
         <h1 class="main-text">Hi, I'm <span>Sara</span></h1>
     
         <h2 class="next-text">Software Developer & <span>Designer</span></h2>
 
-        <div class="circle-container">
-            <div class="circle">
-                <div class="circle-text"><a href="aboutpage.html"> About Me </a></div>
+        <div class="d-flex flex-wrap justify-content-center mt-4">
+            <div class="circle m-2 bg-warning rounded-circle d-flex align-items-center justify-content-center" style="width: 200px; height: 200px;">
+                <a href="aboutpage.html" class="text-decoration-none text-white h5"> About Me </a>
             </div>
-            <div class="circle">
-                <div class="circle-text"><a href="resumepage.html"> Resume </a></div>
+            <div class="circle m-2 bg-warning rounded-circle d-flex align-items-center justify-content-center" style="width: 200px; height: 200px;">
+                <a href="resumepage.html" class="text-decoration-none text-white h5"> Resume </a>
             </div>
-            <div class="circle">
-                <div class="circle-text"><a href="servicepage.html"> Service </a></div>
+            <div class="circle m-2 bg-warning rounded-circle d-flex align-items-center justify-content-center" style="width: 200px; height: 200px;">
+                <a href="servicepage.html" class="text-decoration-none text-white h5"> Service </a>
             </div>
-            <div class="circle">
-                <div class="circle-text"><a href="blogpage.html"> Blog </a></div>
+            <div class="circle m-2 bg-warning rounded-circle d-flex align-items-center justify-content-center" style="width: 200px; height: 200px;">
+                <a href="blogpage.html" class="text-decoration-none text-white h5"> Blog </a>
             </div>
         </div>
-        <div class="upper-circle">
-            <img src="images/profile.jpg" alt="Circle Image" class="upper-circle">
-        </div>
+        
     </div>
 
-    <footer>
-        <a href="contactpage.html">Contact Me</a>
+    <footer class="bg-warning text-center text-dark fixed-bottom py-2">
+        <a href="contactpage.html" class="text-decoration-none">Contact Me</a>
     </footer>
 
+    <script src="../bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

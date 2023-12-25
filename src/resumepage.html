@@ -5,75 +5,101 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sara Mohammed's Professional Profile</title>
-    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="../bootstrap.min.css">
 </head>
 
 <body>
-    <header class="resumeheader">
-        <nav>
-            <a href="homepage.html">Home</a>
-            <a href="aboutpage.html">About</a>
-            <a href="servicepage.html">Service</a>
-            <a href="blogpage.html">Blog</a>
-        </nav>
+    <header class="navbar navbar-expand-lg navbar-light bg-warning">
+        <div class="a container-fluid bg-warning">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="homepage.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="servicepage.html">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blogpage.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutpage.html">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </header>
-
-    <div class="rcontainer">
-        <img src="images/resumebg.jpg" alt="Main Image" class="rmain-image">
-    </div>
-
-    <div class="rupper-circle">
-        <img src="images/profile.jpg" alt="Circle Image">
-    
-    </div>
-    <h3 id="resumename">Sara Mohammed</h3>
-
-    <div class="rsection">
-        <h2>Professional Goal</h2>
-        <p>Aspiring software engineer with a passion for crafting innovative solutions. Seeking opportunities to contribute my skills in graphics UI/UX design and web development to create user-centric and visually appealing software applications.</p>
-    </div>
-
-    <div class="rsection">
-        <h2>Work Experience</h2>
-        <p>Graphics UI/UX Designer | 2020 - Present</p>
-        <ul>
-            <li>Designed intuitive and visually engaging user interfaces for software applications.</li>
-            <li>Collaborated with development teams to implement effective UX strategies.</li>
-        </ul>
-        <p>Web Developer | 2022-present</p>
-        <ul>
-            <li>Developed and maintained responsive websites with a focus on user experience.</li>
-            <li>Collaborated with cross-functional teams to ensure seamless integration of design and functionality.</li>
-        </ul>
-    </div>
-
-    <div class="rsection">
-        <h2>Academic History</h2>
-        <p>I embarked on my educational journey at the Ethiopian Embassy School in Saudi Arabia, where I spent my formative years from 2005 to 2008, completing my kindergarten education. The subsequent chapter unfolded at Sumeya School in Addis Ababa, spanning from 2008 to 2021, encompassing both elementary and high school. Currently, I am immersed in the dynamic learning environment of AAU University in Addis Ababa, pursuing a degree in Software Engineering since 2022, with a projected completion in 2027.</p>
-    </div>
     
 
-    <div class="rsection">
-        <h2>Specializations</h2>
-        <p>Graphics UI/UX Design, Web Development, Software Engineering</p>
+    <div>
+        <img src="images/resumebg.jpg" alt="Main Image" class="img-fluid mb-0">
     </div>
 
-    <div class="rsection">
-        <h2>Languages Spoken</h2>
-        <p>English, Amharic, Arabic</p>
+    <div class="container upper-circle mt-4  w-50 h-50 align-items-center">
+        <img src="images/profile.jpg" alt="Circle Image" class="img-fluid rounded-circle w-50 h-50 align-items-center" >
+    
+
+        <h3 class="mt-3 mb-10 text-warning">Sara Mohammed</h3>
     </div>
 
-    <footer class="resumefooter">
-        <a href="contact.html">Contact Me</a>
-    </footer>
+    <div class="containerq">
+        <div class="row  ">
+            <div class="row row-cols-1 row-cols-md-4 mt-4 gap-1">
+                <div class=" bg-warning mt-4  ">
+                    <h2>Professional Goal</h2>
+                    <p>Aspiring software engineer with a passion for crafting innovative solutions. Seeking opportunities
+                        to contribute my skills in graphics UI/UX design and web development to create user-centric and
+                        visually appealing software applications.</p>
+                </div>
+                <div class=" bg-warning mt-4 ">
+                    <h2>Work Experience</h2>
+                    <p>Graphics UI/UX Designer | 2020 - Present</p>
+                    <ul>
+                        <li>Designed intuitive and visually engaging user interfaces for software applications.</li>
+                        <li>Collaborated with development teams to implement effective UX strategies.</li>
+                    </ul>
+                    <p>Web Developer | 2022-present</p>
+                    <ul>
+                        <li>Developed and maintained responsive websites with a focus on user experience.</li>
+                        <li>Collaborated with cross-functional teams to ensure seamless integration of design and
+                            functionality.</li>
+                    </ul>
+                </div>
+                <div class=" bg-warning mt-4 ">
+                    <h2>Academic History</h2>
+                    <p>I embarked on my educational journey at the Ethiopian Embassy School in Saudi Arabia, where I spent
+                        my formative years from 2005 to 2008, completing my kindergarten education. The subsequent chapter
+                        unfolded at Sumeya School in Addis Ababa, spanning from 2008 to 2021, encompassing both elementary
+                        and high school. Currently, I am immersed in the dynamic learning environment of AAU University in
+                        Addis Ababa, pursuing a degree in Software Engineering since 2022, with a projected completion in
+                        2027.</p>
+                </div>
+            </div>
+            
+            <div class="row mt-4">
+                <div class="col-md-6 bg-warning">
+                    <h2>Specializations</h2>
+                    <p>Graphics UI/UX Design, Web Development, Software Engineering</p>
+                </div>
+                <div class="col-md-6 bg-warning">
+                    <h2>Languages Spoken</h2>
+                    <p>English, Amharic, Arabic</p>
+                </div>
+            </div>
+            
+    </div>
 
-    <div class="rscroll-down" onclick="scrollToSection()">↓</div>
-
-    <script>
-        function scrollToSection() {
-            document.getElementById('header').scrollIntoView({ behavior: 'smooth' });
-        }
-    </script>
+    <footer class="text-center p-3 text-center bg-warning text-white bg-warning text-white fixed-bottom">
+        <a href="contactpage.html" class="text-white text-decoration-none">Contact Me</a>    </footer>
+    
+    <script src="../bootstrap.bundle.min.js"></script>
+    
 </body>
 
 </html>
